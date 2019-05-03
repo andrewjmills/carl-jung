@@ -1,0 +1,46 @@
+/*This is the CSS file for carl-jung*/
+a:link, .navbar-default .navbar-nav>li>a:visited{
+	color: white;
+}
+a:visited, .navbar-default .navbar-nav>li>a:visited{
+	color: #5A5A5A;
+}
+a:hover, .navbar-default .navbar-nav>li>a:hover{
+	color: #FFA500;
+}
+a:active, .navbar-default .navbar-nav>li>a:active{
+	color: pink;
+}
+h3, header{
+	color:white;
+	background-color: #FFA500;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+main, .navbar .container-fluid{
+	max-width: 1200px;
+	margin:0 auto;
+}
+h1, footer{
+	color:white;
+	background-color: #17a2b8;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	display:block;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+	font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	font-size: 1.5em;
+	}
+}
